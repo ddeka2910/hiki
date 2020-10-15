@@ -26,3 +26,5 @@ matrix:
   allow_failures:
     # eventmachine cann't build with rb_thread_blocking_region
     - rvm: ruby-head
+    - rvm: 2.1
+    - rvm: 2.2
